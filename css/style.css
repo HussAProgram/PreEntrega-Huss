@@ -135,6 +135,41 @@ p{
         margin-top: 76px;
     }
 }
+@media screen and (min-width: 375px){
+    .bg-pattern{
+        background-image: url(../images/top.png);
+        background-size: cover;
+    }
+    .text{
+        color: #402617;
+        display: grid;
+        justify-items: start;
+        grid-template-columns: 4fr 2fr;
+        column-gap: 1vh;
+        row-gap: 10vh;
+    }
+    .images{
+        display: grid;
+        grid-template-rows: 2fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+    .aboutus__img{
+        margin-left: 0px;
+        height: 50vh;
+        width: 100vh;
+    }
+    .how-we{
+        height: 20vh;
+        width: 45vh;
+        margin-right: 12vh;
+        margin-top: 1vh;
+    }
+    .footer-bg{
+        background-image: url(../images/group.png);
+        width: 50vh;
+        margin-top: 76px;
+    }
+}
 @media screen and (min-width: 480px){
     .footer-bg{
         background-image: url(../images/group.png);
