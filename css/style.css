@@ -92,7 +92,7 @@ p{
     font-family: 'Kanit', sans-serif;;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (min-width: 320px){
     .bg-pattern{
         background-image: url(../images/top.png);
         background-size: cover;
@@ -138,6 +138,12 @@ p{
     }
 }
 @media screen and (min-width: 600px){
+    .aboutus__img{
+        margin-left: 0px;
+        margin-top: 0px;
+        height: 45vh;
+        width: 120vh;
+    }
     .images{
         display: grid;
         grid-template-rows: auto auto;
