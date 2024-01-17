@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+* {
+  font-family: "Kanit", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Kanit", sans-serif;
+  color: #402617;
+}/*# sourceMappingURL=main.css.map */
