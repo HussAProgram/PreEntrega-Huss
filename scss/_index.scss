@@ -1,0 +1,11 @@
+//text
+.text{
+    color: #402617;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+//images
+.imagesFlex img:hover{
+    width: 42vh;
+}

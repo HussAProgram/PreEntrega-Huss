@@ -1,0 +1,14 @@
+//text
+.text{
+    color: #402617;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.h1-countries{
+    font-family: 'Kanit', sans-serif;;
+}
+//images
+.imagesFlex img:hover{
+    width: 42vh;
+}

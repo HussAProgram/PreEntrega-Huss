@@ -1,97 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
-h2{
-    font-family: 'Kanit', sans-serif;;
-}
-h3{
-    font-family: 'Kanit', sans-serif;;
-}
-.text{
-    color: #402617;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    justify-content: space-around;
-}
-.bg-pattern{
-    background-image: url(../images/top.png);
-    background-size: cover;
-}
-.footer-bg{
-    background-image: url(../images/group.png);
-    width: 350px;
-    margin-top: 30px;
-}
-h3{
-    display: block;
-}
-.aboutus__img{
-    display: flex;
-    width: 200vh;
-    justify-content: center;
-    margin-top: 1vh;
-    margin-left: 3px;
-}
-p{
-    font-size: 25px;
-    position: absolute;
-    top: 75vh;
-}
-.h1-countries{
-    font-family: 'Kanit', sans-serif;;
-}
-.follow-us{
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    justify-content: space-around;
-}
-.borders{
-    border-bottom: dashed 1vh #402617;
-}
-.how-we{
-    display: flex;
-    height: 55vh;
-    flex-direction: row-reverse;
-    margin-top: -195px;
-    margin-right: 150px;
-}
-.howwedoit__text{
-    color: #402617;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-}
-.howwedoit__text a:hover{
-    color: #402617;
-    font-size: 3vh;
-}
-.footer__text{
-    color: #6CA6D9;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    justify-content: space-around;
-}
-.follow-us img:hover{
-    width: 9vh;  
-}
-.imagesFlex img:hover{
-    width: 42vh;
-}
-.menu{
-    background-color: #99C8F2;
-}
-.dropdown{
-    font-size: 3vh;
-}
-.links{
-    font-size: 3vh;
-    margin-left: 8vh;
-}
-.dropdown_text{
-    font-family: 'Kanit', sans-serif;;
-}
-
+//320px
 @media screen and (min-width: 320px){
     .bg-pattern{
         background-image: url(../images/top.png);
@@ -119,6 +26,7 @@ p{
         margin-top: 76px;
     }
 }
+//480px
 @media screen and (min-width: 480px){
     .footer-bg{
         background-image: url(../images/group.png);
@@ -137,6 +45,7 @@ p{
         margin-top: -150px;
     }
 }
+//600px
 @media screen and (min-width: 600px){
     .aboutus__img{
         margin-left: 0px;
@@ -161,6 +70,7 @@ p{
         margin-top: -10px;
     }
 }
+//768px
 @media screen and (min-width: 768px){
     .images{
         display: grid;
@@ -184,6 +94,7 @@ p{
         width: 100vh;
     }
 }
+//1023px
 @media screen and (min-width: 1023px){
     .images{
         display: grid;
@@ -207,6 +118,7 @@ p{
         width: 100vh;
     }
 }
+//1024px
 @media screen and (min-width: 1024px){
     .footer-bg{
         background-image: url(../images/group.png);
@@ -228,10 +140,11 @@ p{
         margin-top: -130px;
     }
 }
+//1200px
 @media screen and (min-width: 1200px){
     .footer-bg{
         background-image: url(../images/group.png);
-        width: 350px;
+        width: 1224px;
         margin-top: 155px;
     }
     .aboutus__img{
@@ -278,4 +191,3 @@ p{
         width:100%;
     }
 }
-
