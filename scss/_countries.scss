@@ -9,6 +9,17 @@
     font-family: 'Kanit', sans-serif;;
 }
 //images
-.imagesFlex img:hover{
-    width: 42vh;
+/* desktop flotan 4 por fila */
+.imagesFlex{
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
+    .imagesFlex div{
+        width:24% ;
+        margin-top: 20px;
+    }
+        .imagesFlex div img{
+            width: 100%;
+        }

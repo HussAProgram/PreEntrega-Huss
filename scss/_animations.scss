@@ -1,0 +1,32 @@
+//images
+.transform:hover{
+    transform: translateY(5px);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+@keyframes AnimateFollow{
+    0%{color: #6CA6D9;}
+    25%{color: #6CA6D9;}
+    50%{color: #ffff;}
+    75%{color: #ffff;}
+    100%{color: #6CA6D9;}
+}
+.animatefollow{
+    animation: AnimateFollow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes AnimateText{
+    0%{color: #402617;}
+    25%{color: #5F2727;}
+    50%{color: #803C3C;}
+    75%{color: #B36A6A;}
+    85%{color: #BF9D7E;}
+    100%{color: #402617;}
+}
+.animate:hover{
+    animation: AnimateText;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}

@@ -1,0 +1,19 @@
+@mixin howwe{
+    display: flex;
+    height: 55vh;
+    flex-direction: row-reverse;
+    margin-top: -195px;
+    margin-right: 150px;
+}
+.how-we{
+    @include howwe;
+}
+
+@mixin sizes($width, $height)
+{
+    height: $height;
+    width: $width;
+}
+.aboutus__img{
+    @include sizes(50px,190px);
+}
