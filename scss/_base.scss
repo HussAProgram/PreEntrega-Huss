@@ -48,10 +48,11 @@ h3{
     margin-left: 8vh;
 }
 .dropdown_text{
-    font-family: 'Kanit', sans-serif;;
+    font-family: $mainFont;
 }
-p{
-    font-size: 25px;
-    position: absolute;
-    top: 75vh;
+.dropdown_bg{
+    background-image: url(../images/dropdown-bg.png);
+}
+.dropdown_select:hover{
+    background-image: url(../images/dropdown-select.png);
 }

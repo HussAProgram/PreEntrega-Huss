@@ -1,6 +1,7 @@
 //text
 .text{
-    color: #402617;
+    font-family: $mainFont;
+    color: $mainColor;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;

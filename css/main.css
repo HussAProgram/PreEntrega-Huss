@@ -54,10 +54,12 @@ h3 {
   font-family: "Kanit", sans-serif;
 }
 
-p {
-  font-size: 25px;
-  position: absolute;
-  top: 75vh;
+.dropdown_bg {
+  background-image: url(../images/dropdown-bg.png);
+}
+
+.dropdown_select:hover {
+  background-image: url(../images/dropdown-select.png);
 }
 
 .transform:hover {
@@ -116,6 +118,7 @@ p {
 }
 
 .text {
+  font-family: "Kanit", sans-serif;
   color: #402617;
   display: flex;
   flex-flow: row nowrap;
@@ -153,10 +156,19 @@ p {
 }
 
 .howwedoit__text {
+  font-family: "Kanit", sans-serif;
   color: #402617;
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-start;
+}
+
+p {
+  font-family: "Kanit", sans-serif;
+  color: #402617;
+  font-size: 25px;
+  position: absolute;
+  top: 75vh;
 }
 
 @media screen and (min-width: 320px) {
@@ -331,6 +343,7 @@ p {
   }
 }
 .text {
+  font-family: "Kanit", sans-serif;
   color: #402617;
   display: flex;
   flex-flow: row nowrap;
