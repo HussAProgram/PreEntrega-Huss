@@ -33,6 +33,7 @@ h3{
 }
 .footer-bg{
     background-image: url(../images/group.png);
+    width: 100%;
 }
 .follow-us img:hover{
     width: 9vh;  
@@ -55,4 +56,11 @@ h3{
 }
 .dropdown_select:hover{
     background-image: url(../images/dropdown-select.png);
+}
+.errortext{
+    font-family: $mainFont;
+    color: $mainColor;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
