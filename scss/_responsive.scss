@@ -98,7 +98,7 @@
     p{
         font-family: $mainFont;
         color: $mainColor;
-        font-size: 40px;
+        font-size: 25px;
         position: absolute;
     }
     .images{
@@ -140,7 +140,7 @@
     .footer-bg{
         background-image: url(../images/group.png);
         width: 100%;
-        margin-top: 40%;
+        margin-top: 100%;
     }
     .how-we{
         height: 40vh;
@@ -198,9 +198,9 @@
         margin-top: 155px;
     }
     .aboutus__img{
-        width: 130vh;
-        margin-top: 2vh;
-        margin-left: 70px;
+        width: 150vh;
+        margin-top: 3px;
+        margin-left: 10%;
     }
     .images{
         display: flex;
@@ -209,11 +209,8 @@
     .how-we{
         width: 130vh;
         height: 55vh;
-        margin-left: 2px;
-        margin-top: -180px;
-    }
-    .errortext{
-        margin-right: 50%;
+        margin-left: 240px;
+        margin-top: -190px;
     }
 }
 
