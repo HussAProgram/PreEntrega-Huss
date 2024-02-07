@@ -1,0 +1,30 @@
+$followus: (
+    facebook: #007AFF,
+    instagram: #FF3B30,
+    twitter: #5AC8FA
+);
+@each $red, $color in $followus{
+    .btn--#{$red} {
+        background-color: $color;
+    }
+}
+$estilos: (
+  bg: url(../images/top.png),
+  color: #6CA6D9,
+  space: space-evenly,
+  bg_footer: url(../images/group.png),
+  tFont: 3vh,
+);
+
+.bg-pattern{
+    background-image: map-get($map: $estilos, $key: bg);
+}
+.footer__text{
+    color: map-get($map: $estilos, $key: color);
+}
+.footer-bg{
+    background-image: map-get($map: $estilos, $key: bg_footer);
+}
+.links{
+    font-size: map-get($map: $estilos, $key: tFont);
+}

@@ -29,7 +29,6 @@
         margin-top: 1vh;
     }
     .footer-bg{
-        background-image: url(../images/group.png);
         width: 100%;
         margin-top: 76px;
     }
@@ -37,7 +36,6 @@
 //480px
 @media screen and (min-width: 480px){
     .footer-bg{
-        background-image: url(../images/group.png);
         width: 100%;
         margin-top: 76px;
     }
@@ -74,7 +72,6 @@
         grid-template-columns: 1fr 1fr;
     }
     .footer-bg{
-        background-image: url(../images/group.png);
         width: 100%;
         margin-top: 76px;
     }
@@ -99,7 +96,6 @@
         font-family: $mainFont;
         color: $mainColor;
         font-size: 25px;
-        position: absolute;
     }
     .images{
         display: grid;
@@ -107,9 +103,8 @@
         grid-template-columns: 1fr 1fr;
     }
     .footer-bg{
-        background-image: url(../images/group.png);
         width: 100%;
-        margin-top: 76px;
+        margin-top: 150px;
     }
     .how-we{
         height: 40vh;
@@ -138,9 +133,8 @@
         grid-template-columns: 1fr 2fr;
     }
     .footer-bg{
-        background-image: url(../images/group.png);
         width: 100%;
-        margin-top: 100%;
+        margin-top: 400px;
     }
     .how-we{
         height: 40vh;
@@ -164,7 +158,6 @@
         justify-content: space-around;
     }
     .footer-bg{
-        background-image: url(../images/group.png);
         width: 100%;
         margin-top: 155px;
     }
@@ -193,14 +186,13 @@
         justify-content: space-around;
     }
     .footer-bg{
-        background-image: url(../images/group.png);
         width: 100%;
-        margin-top: 155px;
+        margin-top: 170px;
     }
     .aboutus__img{
         width: 150vh;
-        margin-top: 3px;
-        margin-left: 10%;
+        margin-top: 10px;
+        margin-left: 75px;
     }
     .images{
         display: flex;
@@ -209,8 +201,8 @@
     .how-we{
         width: 130vh;
         height: 55vh;
-        margin-left: 240px;
-        margin-top: -190px;
+        margin-left: 100px;
+        margin-top: -170px;
     }
 }
 

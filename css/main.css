@@ -11,12 +11,10 @@ h3 {
 }
 
 .bg-pattern {
-  background-image: url(../images/top.png);
   background-size: cover;
 }
 
 .footer__text {
-  color: #6CA6D9;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -30,7 +28,6 @@ h3 {
 }
 
 .footer-bg {
-  background-image: url(../images/group.png);
   width: 100%;
 }
 
@@ -47,7 +44,6 @@ h3 {
 }
 
 .links {
-  font-size: 3vh;
   margin-left: 8vh;
 }
 
@@ -69,6 +65,34 @@ h3 {
   display: flex;
   justify-content: center;
   flex-direction: row;
+}
+
+.btn--facebook {
+  background-color: #007AFF;
+}
+
+.btn--instagram {
+  background-color: #FF3B30;
+}
+
+.btn--twitter {
+  background-color: #5AC8FA;
+}
+
+.bg-pattern {
+  background-image: url(../images/top.png);
+}
+
+.footer__text {
+  color: #6CA6D9;
+}
+
+.footer-bg {
+  background-image: url(../images/group.png);
+}
+
+.links {
+  font-size: 3vh;
 }
 
 .transform:hover {
@@ -159,8 +183,7 @@ p {
   font-family: "Kanit", sans-serif;
   color: #402617;
   font-size: 25px;
-  position: absolute;
-  top: 75vh;
+  top: 80vh;
 }
 
 @media screen and (max-width: 320px) {
@@ -194,14 +217,12 @@ p {
     margin-top: 1vh;
   }
   .footer-bg {
-    background-image: url(../images/group.png);
     width: 100%;
     margin-top: 76px;
   }
 }
 @media screen and (min-width: 480px) {
   .footer-bg {
-    background-image: url(../images/group.png);
     width: 100%;
     margin-top: 76px;
   }
@@ -238,7 +259,6 @@ p {
     grid-template-columns: 1fr 1fr;
   }
   .footer-bg {
-    background-image: url(../images/group.png);
     width: 100%;
     margin-top: 76px;
   }
@@ -263,7 +283,6 @@ p {
     font-family: "Kanit", sans-serif;
     color: #402617;
     font-size: 25px;
-    position: absolute;
   }
   .images {
     display: grid;
@@ -271,9 +290,8 @@ p {
     grid-template-columns: 1fr 1fr;
   }
   .footer-bg {
-    background-image: url(../images/group.png);
     width: 100%;
-    margin-top: 76px;
+    margin-top: 150px;
   }
   .how-we {
     height: 40vh;
@@ -302,9 +320,8 @@ p {
     grid-template-columns: 1fr 2fr;
   }
   .footer-bg {
-    background-image: url(../images/group.png);
     width: 100%;
-    margin-top: 100%;
+    margin-top: 400px;
   }
   .how-we {
     height: 40vh;
@@ -327,7 +344,6 @@ p {
     justify-content: space-around;
   }
   .footer-bg {
-    background-image: url(../images/group.png);
     width: 100%;
     margin-top: 155px;
   }
@@ -355,14 +371,13 @@ p {
     justify-content: space-around;
   }
   .footer-bg {
-    background-image: url(../images/group.png);
     width: 100%;
-    margin-top: 155px;
+    margin-top: 170px;
   }
   .aboutus__img {
     width: 150vh;
-    margin-top: 3px;
-    margin-left: 10%;
+    margin-top: 10px;
+    margin-left: 75px;
   }
   .images {
     display: flex;
@@ -371,8 +386,8 @@ p {
   .how-we {
     width: 130vh;
     height: 55vh;
-    margin-left: 240px;
-    margin-top: -190px;
+    margin-left: 100px;
+    margin-top: -170px;
   }
 }
 /* desktop flotan 4 por fila */
