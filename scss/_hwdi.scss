@@ -1,8 +1,4 @@
 //text
 .howwedoit__text{
-    font-family: $mainFont;
-    color: $mainColor;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
+    @extend .text
 }

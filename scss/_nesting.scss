@@ -1,0 +1,11 @@
+//textimages
+section{
+    list-style: none;
+        div{
+            display: inline-block;
+            h2{
+                color: $mainColor;
+                font-family: $mainFont;
+            }
+    }
+}

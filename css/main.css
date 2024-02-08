@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
-* {
-  font-family: "Kanit", sans-serif;
-}
-
-h1,
-h2,
+h1, h2,
 h3 {
   font-family: "Kanit", sans-serif;
   color: #402617;
@@ -150,12 +145,23 @@ h3 {
   animation-iteration-count: infinite;
 }
 
-.text {
+.text, .howwedoit__text {
   font-family: "Kanit", sans-serif;
   color: #402617;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: center;
+  justify-content: flex-start;
+}
+
+section {
+  list-style: none;
+}
+section div {
+  display: inline-block;
+}
+section div h2 {
+  color: #402617;
+  font-family: "Kanit", sans-serif;
 }
 
 .how-we {
@@ -171,14 +177,6 @@ h3 {
   width: 50px;
 }
 
-.howwedoit__text {
-  font-family: "Kanit", sans-serif;
-  color: #402617;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-start;
-}
-
 p {
   font-family: "Kanit", sans-serif;
   color: #402617;
@@ -191,7 +189,7 @@ p {
     background-image: url(../images/top.png);
     background-size: cover;
   }
-  .text {
+  .text, .howwedoit__text {
     color: #402617;
     display: grid;
     justify-items: start;
@@ -240,7 +238,7 @@ p {
   }
 }
 @media screen and (min-width: 600px) {
-  .text {
+  .text, .howwedoit__text {
     color: #402617;
     display: grid;
     justify-items: start;
@@ -270,7 +268,7 @@ p {
   }
 }
 @media screen and (min-width: 768px) {
-  .text {
+  .text, .howwedoit__text {
     color: #402617;
     display: grid;
     justify-items: start;
@@ -305,7 +303,7 @@ p {
   }
 }
 @media screen and (min-width: 1023px) {
-  .text {
+  .text, .howwedoit__text {
     color: #402617;
     display: grid;
     justify-items: start;
@@ -336,7 +334,7 @@ p {
   }
 }
 @media screen and (min-width: 1024px) {
-  .text {
+  .text, .howwedoit__text {
     color: #402617;
     display: flex;
     flex-flow: row nowrap;
@@ -363,7 +361,7 @@ p {
   }
 }
 @media screen and (min-width: 1200px) {
-  .text {
+  .text, .howwedoit__text {
     color: #402617;
     display: flex;
     flex-flow: row nowrap;
@@ -375,9 +373,9 @@ p {
     margin-top: 170px;
   }
   .aboutus__img {
-    width: 150vh;
+    width: 75%;
     margin-top: 10px;
-    margin-left: 75px;
+    margin-left: 90px;
   }
   .images {
     display: flex;
@@ -386,8 +384,8 @@ p {
   .how-we {
     width: 130vh;
     height: 55vh;
-    margin-left: 100px;
-    margin-top: -170px;
+    margin-left: 200px;
+    margin-top: -230px;
   }
 }
 /* desktop flotan 4 por fila */
@@ -419,12 +417,12 @@ p {
     width: 100%;
   }
 }
-.text {
+.text, .howwedoit__text {
   font-family: "Kanit", sans-serif;
   color: #402617;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .h1-countries {

@@ -4,8 +4,8 @@
     color: $mainColor;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .h1-countries{
-    font-family: 'Kanit', sans-serif;;
+    font-family: $mainFont;
 }
